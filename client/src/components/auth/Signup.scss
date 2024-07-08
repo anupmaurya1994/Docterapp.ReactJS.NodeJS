@@ -1,0 +1,50 @@
+#signup-page {
+    .css-o3icnz-MuiPaper-root {
+        width: 52%;
+        padding: 0;
+        background-color: white;
+        overflow: hidden;
+        border: 1px solid white;
+        border-radius: 3px;
+        height: 65%;
+    }
+
+    .overlay {
+        position: absolute;
+        inset: 0;       
+         background: rgba(0, 0, 0, 0.3);
+    }
+
+    .title{
+        z-index: 7;
+        position: relative;
+    }
+
+    .title{
+        position: absolute;
+        top: -22.25rem;
+        bottom: 0;
+        right: -7.75rem;
+        background-image: url(../../assest/login-form-img.jpg);
+        transform: skewY(20deg);
+        transform: rotate(-47deg);
+        height: 64rem;
+        width: 31.25rem;
+        z-index: 0;
+    }
+
+
+    @media only screen and (max-width: 668px) {
+
+        .css-1968fav-MuiContainer-root{
+            margin-top: 16px;
+        }
+        .css-o3icnz-MuiPaper-root{
+            width: 85%;
+            height: 94%;
+        }
+        .css-1wra20n-MuiContainer-root{
+            margin-top: 10px;
+        }
+    }
+}

@@ -1,0 +1,159 @@
+#Dashboard {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 100px;
+
+    @media (min-width: 900px) {
+        .leftSide_Filter {
+            margin-inline-start: 24.438rem;
+        }
+
+        .rightSide_Main {
+            margin-inline-end: 24.438rem;
+            box-shadow: none;
+            background-color: #F4F5F7;
+        }
+    }
+
+    .css-1633um2-MuiPaper-root {
+        box-shadow: none;
+    }
+
+    .card-details {
+        border-radius: 11px;
+        margin-bottom: 11px;
+        background-color: #F4F5F7;
+    }
+
+    .card-title {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: normal;
+        color: #010c1f;
+    }
+
+    .card-location {
+        color: #42526e;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 10px 12px 14px 0;
+    }
+
+    .card-decs {
+        color: #42526e;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        padding: 8px 12px 14px 0;
+    }
+
+    .css-lsrimx-MuiTypography-root {
+        padding-inline-start: 22px;
+        font-size: 18px;
+        font-weight: 540;
+        color: #091e42;
+        display: block;
+        text-align: left;
+        align-content: flex-end;
+    }
+
+    .css-1yjjitx-MuiSwitch-track {
+        background: #75b6e0;
+    }
+
+    .css-bhp9pd-MuiPaper-root-MuiCard-root {
+        border: 1px solid #dfd4d4;
+        border-radius: 10px;
+        box-shadow: 2px;
+    }
+
+    .css-1633um2-MuiPaper-root {
+        padding: 0;
+    }
+
+    .chip {
+        padding: 5px 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        width: fit-content;
+        margin-right: 7px;
+        margin-bottom: 8px;
+    }
+
+    .chip span {
+        margin-right: 5px;
+    }
+
+    .active {
+        border: 1px solid #a3daff;
+        color: #091e42;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        background: #f0f9ff;
+        padding: 2px 12px 2px;
+        text-align: center;
+        vertical-align: middle;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .tab-bar {
+        margin-bottom: 17px;
+        margin-inline: 24.438rem;
+        padding: 14px 10px 14px 10px;
+        border: none;
+    }
+    
+    .css-6od3lo-MuiChip-label{
+        font-size: 14px;
+    }
+
+    .css-1jzq0dw-MuiChip-label{
+        font-size: 14px;
+    }
+
+    .inactive {
+        background: #fff;
+        outline: none;
+        cursor: pointer;
+        border: 1px solid #ebecf0;
+        padding: 2px 12px 2px;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 600;
+        color: #42526e;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .filter_title {
+        font-size: 16px;
+        font-weight: 550;
+        color: #091e42;
+        display: block;
+        text-align: left;
+        align-content: flex-end;
+    }
+
+    .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input, .css-15v22id-MuiAccordionDetails-root{
+        padding: 0;
+    }
+
+    .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+        padding: 10px 0 10px 0;
+    }
+
+    @media only screen and (max-width: 668px) {
+
+        .tab-bar {
+            margin-inline: 0;
+        }
+
+        .leftSide_Filter {
+            display: none;
+        }
+
+    }
+}
